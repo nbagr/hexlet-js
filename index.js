@@ -1,3 +1,4 @@
-import fs from 'node:fs'
+import _ from "lodash";
 
-console.log('Hello, Hexlet!');
+const name = 'alex'
+console.log(_.capitalize(name));
